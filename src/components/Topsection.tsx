@@ -10,7 +10,7 @@ const topsection = () => (
         <div className="col-md-5 col-lg-5 col-xl-5">
           <div className="rowText">The essentials</div>
           <div className="mytext">
-            A modern app for brands that want more.
+            A modern app for brands that want more vk.
             <br />
             <button type="button" className="btn btn-dark btn-lg">
               {" "}
