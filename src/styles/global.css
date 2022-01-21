@@ -84,6 +84,9 @@ ul li ul.dropdown li {
 span.search-text {
   margin-right: 50px;
 }
+.gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+  margin-top: 5px;
+}
 .cart {
   margin-right: 100px;
 }
