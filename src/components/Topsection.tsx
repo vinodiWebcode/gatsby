@@ -1,8 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "bootstrap/dist/css/bootstrap.min.css"
+// import { createPopper } from '@popperjs/core';
 import "../styles/global.css"
-
+// const popcorn = document.querySelector('#popcorn');
+// const tooltip = document.querySelector('#tooltip');
+// createPopper(popcorn, tooltip, {
+//   placement: 'top',
+// });
 const topsection = () => (
   <section className="first-section">
     <div className="container">
