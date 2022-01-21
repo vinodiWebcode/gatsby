@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/global.css"
-import Designsec from "../components/Designsec"
+import Designsec from "./Designsec"
 const Topsection = () => {
   return (
     <div>
