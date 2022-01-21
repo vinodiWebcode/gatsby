@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/global.css"
-import Prototype from "../components/Prototype"
+import Protodesign from "../components/Protodesign"
 const Topsection = () => {
   return (
     <div>
@@ -96,7 +96,7 @@ const Topsection = () => {
             </div>
           </div>
         </section>
-        <Prototype />
+        <Protodesign />
       </section>
     </div>
   )
