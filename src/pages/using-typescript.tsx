@@ -1,9 +1,8 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
-
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 type DataProps = {
   site: {
@@ -18,7 +17,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     <p>
       This means that you can create and write <em>.ts/.tsx</em> files for your
       pages, components etc. Please note that the <em>gatsby-*.js</em> files
-      (like gatsby-node.js) currently don't support TypeScript yet.
+      (like gatsby-node.js) currently don't support TypeScript yet.....
     </p>
     <p>
       For type checking you'll want to install <em>typescript</em> via npm and
@@ -30,9 +29,9 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     </p>
     <p>
       To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/typescript/">
+      <Link to="https://www.gatsbyjs.com/docs/typescript/">
         documentation about TypeScript
-      </a>
+      </Link>
       .
     </p>
     <Link to="/">Go back to the homepage</Link>

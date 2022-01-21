@@ -1,10 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const UsingSSR = ({ serverData }) => {
+const UsingSSR = ({ serverData }: any) => {
   return (
     <Layout>
       <Seo title="Using SSR" />
@@ -26,9 +25,7 @@ const UsingSSR = ({ serverData }) => {
     </Layout>
   )
 }
-
 export default UsingSSR
-
 export async function getServerData() {
   try {
     const res = await fetch(`https://dog.ceo/api/breeds/image/random`)
