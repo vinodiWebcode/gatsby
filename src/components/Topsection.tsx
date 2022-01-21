@@ -2,7 +2,6 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/global.css"
-import Designsec from "./Designsec"
 const Topsection = () => {
   return (
     <div>
@@ -96,7 +95,33 @@ const Topsection = () => {
             </div>
           </div>
         </section>
-        <Designsec />
+        <section>
+          <div className="container">
+            <div className="row uidesign">
+              <div className="col-md-6 col-lg-6 col-xl-6">
+                <div className="uiPropTitle">
+                  <span>02</span>
+                  <div className="uiuxTitle">Prototype </div>
+                  <div className="uiDiv">
+                    <div className="uiinter">Animation </div>
+                    <div className="uiDiscription">
+                      Quisque eget velit. Duis vitae semper augue. Orci nulla
+                      magna, arcu diam inceptos lupus ut quis nibh eu.
+                      <div className="readtext">Read More</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-6 col-xl-6">
+                <StaticImage
+                  className="imgwidth"
+                  src="../images/h1-img-2.png"
+                  alt="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </div>
   )

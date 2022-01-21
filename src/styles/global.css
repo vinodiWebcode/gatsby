@@ -23,8 +23,9 @@ ul li a {
   color: #333;
   text-decoration: none;
 }
-ul li a:hover {
+.dropdown li a:hover {
  color: #333;
+ background-color: #ddd;
 }
 ul li a {
   display: block;
