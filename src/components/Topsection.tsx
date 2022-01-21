@@ -126,5 +126,4 @@ const Topsection = () => {
     </div>
   )
 }
-
 export default Topsection
